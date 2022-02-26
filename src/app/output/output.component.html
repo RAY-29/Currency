@@ -1,0 +1,18 @@
+<div class="all" align="center">
+  <h1 style="color: blue; font-style: italic;font-weight: 800; font-family: 
+  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+   Geneva, Verdana, sans-serif;">Converted Value</h1>
+<ng-template [ngIf]="data==='usd'">
+    <h1>{{t|currency:'USD'}}</h1>
+  </ng-template>
+  <ng-template [ngIf]="data==='euro'">
+    <h1>{{t|currency:"EUR"}}</h1>
+  </ng-template>
+  <ng-template [ngIf]="data==='gbp'">
+    <h1>{{t|currency:"GBP"}}</h1>
+  </ng-template>
+  <ng-template [ngIf]="data==='cny'">
+    <h1>{{t|currency:"CNY"}}</h1>
+  </ng-template>
+  <button routerLink="" mat-raised-button color="primary" style="margin: 5px;">Back</button>
+</div>
