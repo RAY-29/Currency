@@ -10,12 +10,14 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OutputComponent,
-    HomeComponent
+    HomeComponent,
+    HelloComponent
   ],
   imports: [
     BrowserModule,
